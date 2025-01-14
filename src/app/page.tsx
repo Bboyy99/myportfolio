@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import ProjectCard from "@/components/ProjectCard";
 import ContactForm from "@/components/ContactForm";
+import Footer from "@/components/Footer";
 
 const projects = [
   {
@@ -160,6 +161,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { SunIcon, MoonIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import SocialLinks from "./SocialLinks";
+import Logo from "./Logo";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,9 +44,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="font-bold text-xl">
-            Brandon
-          </Link>
+          <Logo />
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
