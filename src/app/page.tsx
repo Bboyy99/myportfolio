@@ -5,6 +5,14 @@ import Footer from "@/components/Footer";
 
 const projects = [
   {
+    title: "Tattoo Design Website",
+    description: "A website for exploring and sharing tattoo designs, built with Next.js and modern web technologies.",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Vercel", "Supabase"],
+    imageUrl: "/images/tattoowebsite.jpeg",
+    projectUrl: "https://tattoo-website-eta.vercel.app",
+    githubUrl: "https://github.com/Bboyy99/TattooWebsite",
+  },
+  {
     title: "BlogUniversel",
     description: "A blog website where users can create, read, update, and delete posts.",
     technologies: ["React", "Node.js", "MongoDB"],
